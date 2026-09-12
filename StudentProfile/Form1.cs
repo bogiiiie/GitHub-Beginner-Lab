@@ -16,7 +16,13 @@ namespace StudentProfile
 
 			if (IsValidEmail(email))
 			{
+				btnSubmit.Enabled = false;
 				MessageBox.Show("Profile updated successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+				txtEmailAddress.Clear();
+				txtPhoneNumber.Clear();
+
+				btnSubmit.Enabled = true;
 			}
 			else
 			{
