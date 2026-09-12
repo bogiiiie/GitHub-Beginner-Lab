@@ -30,7 +30,10 @@
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.label2 = new System.Windows.Forms.Label();
-			this.txtContactNumber = new System.Windows.Forms.TextBox();
+			this.txtPhoneNumber = new System.Windows.Forms.TextBox();
+			this.txtEmailAddress = new System.Windows.Forms.TextBox();
+			this.label3 = new System.Windows.Forms.Label();
+			this.btnSubmit = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -47,26 +50,58 @@
 			// 
 			this.label2.AutoSize = true;
 			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(137, 96);
+			this.label2.Location = new System.Drawing.Point(150, 188);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(238, 36);
+			this.label2.Size = new System.Drawing.Size(223, 36);
 			this.label2.TabIndex = 1;
-			this.label2.Text = "Contact Number:";
+			this.label2.Text = "Phone Number:";
 			// 
-			// txtContactNumber
+			// txtPhoneNumber
 			// 
-			this.txtContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.txtContactNumber.Location = new System.Drawing.Point(381, 93);
-			this.txtContactNumber.Name = "txtContactNumber";
-			this.txtContactNumber.Size = new System.Drawing.Size(214, 41);
-			this.txtContactNumber.TabIndex = 2;
+			this.txtPhoneNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtPhoneNumber.Location = new System.Drawing.Point(394, 185);
+			this.txtPhoneNumber.Name = "txtPhoneNumber";
+			this.txtPhoneNumber.Size = new System.Drawing.Size(214, 41);
+			this.txtPhoneNumber.TabIndex = 2;
+			// 
+			// txtEmailAddress
+			// 
+			this.txtEmailAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtEmailAddress.Location = new System.Drawing.Point(394, 118);
+			this.txtEmailAddress.Name = "txtEmailAddress";
+			this.txtEmailAddress.Size = new System.Drawing.Size(214, 41);
+			this.txtEmailAddress.TabIndex = 4;
+			// 
+			// label3
+			// 
+			this.label3.AutoSize = true;
+			this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label3.Location = new System.Drawing.Point(150, 121);
+			this.label3.Name = "label3";
+			this.label3.Size = new System.Drawing.Size(215, 36);
+			this.label3.TabIndex = 3;
+			this.label3.Text = "Email Address:";
+			// 
+			// btnSubmit
+			// 
+			this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.btnSubmit.Location = new System.Drawing.Point(237, 268);
+			this.btnSubmit.Name = "btnSubmit";
+			this.btnSubmit.Size = new System.Drawing.Size(266, 57);
+			this.btnSubmit.TabIndex = 5;
+			this.btnSubmit.Text = "Save";
+			this.btnSubmit.UseVisualStyleBackColor = true;
+			this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Controls.Add(this.txtContactNumber);
+			this.Controls.Add(this.btnSubmit);
+			this.Controls.Add(this.txtEmailAddress);
+			this.Controls.Add(this.label3);
+			this.Controls.Add(this.txtPhoneNumber);
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Name = "Form1";
@@ -80,7 +115,10 @@
 
 		private System.Windows.Forms.Label label1;
 		private System.Windows.Forms.Label label2;
-		private System.Windows.Forms.TextBox txtContactNumber;
+		private System.Windows.Forms.TextBox txtPhoneNumber;
+		private System.Windows.Forms.TextBox txtEmailAddress;
+		private System.Windows.Forms.Label label3;
+		private System.Windows.Forms.Button btnSubmit;
 	}
 }
 
