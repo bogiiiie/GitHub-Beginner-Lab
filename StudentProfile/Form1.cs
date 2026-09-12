@@ -8,7 +8,7 @@ namespace StudentProfile
 		public Form1()
 		{
 			InitializeComponent();
-			txtYearLevel.Text = "4";
+			txtYearLevel.Text = "5";
 		}
 
 		private void btnSubmit_Click(object sender, EventArgs e)
