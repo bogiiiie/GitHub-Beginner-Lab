@@ -34,6 +34,8 @@
 			this.txtEmailAddress = new System.Windows.Forms.TextBox();
 			this.label3 = new System.Windows.Forms.Label();
 			this.btnSubmit = new System.Windows.Forms.Button();
+			this.txtYearLevel = new System.Windows.Forms.TextBox();
+			this.label4 = new System.Windows.Forms.Label();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -85,7 +87,7 @@
 			// btnSubmit
 			// 
 			this.btnSubmit.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.btnSubmit.Location = new System.Drawing.Point(237, 268);
+			this.btnSubmit.Location = new System.Drawing.Point(250, 334);
 			this.btnSubmit.Name = "btnSubmit";
 			this.btnSubmit.Size = new System.Drawing.Size(266, 57);
 			this.btnSubmit.TabIndex = 5;
@@ -93,11 +95,32 @@
 			this.btnSubmit.UseVisualStyleBackColor = true;
 			this.btnSubmit.Click += new System.EventHandler(this.btnSubmit_Click);
 			// 
+			// txtYearLevel
+			// 
+			this.txtYearLevel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtYearLevel.Location = new System.Drawing.Point(394, 259);
+			this.txtYearLevel.Name = "txtYearLevel";
+			this.txtYearLevel.Size = new System.Drawing.Size(214, 41);
+			this.txtYearLevel.TabIndex = 7;
+			this.txtYearLevel.Text = "2";
+			// 
+			// label4
+			// 
+			this.label4.AutoSize = true;
+			this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label4.Location = new System.Drawing.Point(150, 262);
+			this.label4.Name = "label4";
+			this.label4.Size = new System.Drawing.Size(164, 36);
+			this.label4.TabIndex = 6;
+			this.label4.Text = "Year Level:";
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.Controls.Add(this.txtYearLevel);
+			this.Controls.Add(this.label4);
 			this.Controls.Add(this.btnSubmit);
 			this.Controls.Add(this.txtEmailAddress);
 			this.Controls.Add(this.label3);
@@ -119,6 +142,8 @@
 		private System.Windows.Forms.TextBox txtEmailAddress;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Button btnSubmit;
+		private System.Windows.Forms.TextBox txtYearLevel;
+		private System.Windows.Forms.Label label4;
 	}
 }
 
