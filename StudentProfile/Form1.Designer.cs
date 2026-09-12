@@ -46,19 +46,19 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label2.Location = new System.Drawing.Point(174, 104);
+			this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.label2.Location = new System.Drawing.Point(137, 96);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(193, 29);
+			this.label2.Size = new System.Drawing.Size(238, 36);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "Contact Number:";
 			// 
 			// txtContactNumber
 			// 
-			this.txtContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.txtContactNumber.Location = new System.Drawing.Point(373, 99);
+			this.txtContactNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.txtContactNumber.Location = new System.Drawing.Point(381, 93);
 			this.txtContactNumber.Name = "txtContactNumber";
-			this.txtContactNumber.Size = new System.Drawing.Size(214, 34);
+			this.txtContactNumber.Size = new System.Drawing.Size(214, 41);
 			this.txtContactNumber.TabIndex = 2;
 			// 
 			// Form1
