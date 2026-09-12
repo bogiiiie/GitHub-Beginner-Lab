@@ -102,7 +102,7 @@
 			this.txtYearLevel.Name = "txtYearLevel";
 			this.txtYearLevel.Size = new System.Drawing.Size(214, 41);
 			this.txtYearLevel.TabIndex = 7;
-			this.txtYearLevel.Text = "2";
+			this.txtYearLevel.Text = "3";
 			// 
 			// label4
 			// 
